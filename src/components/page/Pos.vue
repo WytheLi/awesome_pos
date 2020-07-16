@@ -13,5 +13,7 @@ export default {
 </script>
 
 <style scoped>
-    
+    .pos {
+        background-color: orange;
+    }
 </style>
