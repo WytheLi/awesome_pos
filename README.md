@@ -30,3 +30,5 @@ mpm install vue-cli -g
 ```
 vue init webpack
 ```
+3. 添加线上icon图标库
+> Iconfont网址：http://www.iconfont.cn
