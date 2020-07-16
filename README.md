@@ -32,3 +32,21 @@ vue init webpack
 ```
 3. 添加线上icon图标库
 > Iconfont网址：http://www.iconfont.cn
+4. 安装element-ui组件库
+在 main.js 中写入以下内容：
+```
+import Vue from 'vue';
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+import App from './App.vue';
+
+Vue.use(ElementUI);
+
+new Vue({
+  el: '#app',
+  render: h => h(App)
+});
+```
+`npm install`安装依赖包
+
+
